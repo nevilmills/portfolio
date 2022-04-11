@@ -1,7 +1,14 @@
 module.exports = {
   content: ["./pages/*", "./components/*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lato: ["Lato"],
+      },
+      colors: {
+        timberwolf: "#EADEDA",
+      },
+    },
   },
   plugins: [],
 };
