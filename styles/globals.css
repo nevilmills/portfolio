@@ -11,8 +11,20 @@
   }
   .nav {
     @apply h-14 w-full flex justify-end items-center sticky top-0 z-50 opacity-75 bg-timberwolf;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .underline {
+    transition: animation-name 1s, animation-duration 1s;
+  }
+
+  .underlineTarget:hover + .underline {
+    animation-name: underline;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    height: 1px;
   }
 
   /* ... */
@@ -34,4 +46,16 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@keyframes underline {
+  0% {
+    width: 0%;
+    margin-left: 50%;
+  }
+
+  100% {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
