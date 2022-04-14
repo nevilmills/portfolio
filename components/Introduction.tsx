@@ -2,12 +2,12 @@ import React from "react";
 
 export const Introduction: React.FC<{}> = ({}) => {
   return (
-    <div className="flex flex-col items-center w-full pt-24">
+    <section className="flex flex-col justify-center min-h-screen items-center w-full">
       <div className="max-w-lg space-y-2">
-        <p className="text-2xl text-darkliver font-lato">Hi, my name is</p>
-        <p className="text-7xl text-darkliver font-lato font-bold">
+        <h1 className="text-2xl text-darkliver font-lato">Hi, my name is</h1>
+        <h2 className="text-7xl text-darkliver font-lato font-bold">
           Nevil Mills.
-        </p>
+        </h2>
         <p className="text-2xl text-darkliver font-lato">
           I'm a software engineer from Chilliwack, B.C. Currently, I am focused
           on developing full stack web applications as I search for a team of
@@ -19,6 +19,6 @@ export const Introduction: React.FC<{}> = ({}) => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
