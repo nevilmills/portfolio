@@ -16,6 +16,12 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
 
+  .heading::after {
+    @apply ml-5 h-px w-64 bg-darkliver;
+    content: "";
+    display: inline-block;
+  }
+
   .underline {
     transition: animation-name 1s, animation-duration 1s;
   }
