@@ -16,6 +16,14 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
 
+  .tab {
+    @apply bg-red-400 h-14 w-28 border-darkliver border-[1px];
+  }
+
+  .is-active {
+    @apply bg-black;
+  }
+
   .heading::after {
     @apply ml-5 h-px w-64 bg-darkliver;
     content: "";

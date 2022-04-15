@@ -1,6 +1,6 @@
 import React from "react";
-import { SectionHeader } from "./SectionHeader";
-import me from "../images/me.jpg";
+import { SectionHeader } from "../SectionHeader";
+import me from "../../images/me.jpg";
 import Image from "next/image";
 
 interface AboutProps {}
