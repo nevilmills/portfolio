@@ -23,14 +23,15 @@
   }
 
   .underline {
-    transition: animation-name 1s, animation-duration 1s;
+    width: 0%;
+    height: 1px;
+    margin-left: 50%;
+    transition: width 0.5s ease-out, margin-left 0.5s ease-out;
   }
 
   .underlineTarget:hover + .underline {
-    animation-name: underline;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-out;
-    height: 1px;
+    width: 100%;
+    margin-left: 0%;
   }
 
   /* ... */
