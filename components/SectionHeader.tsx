@@ -6,7 +6,7 @@ interface SectionHeaderProps {
 
 export const SectionHeader: React.FC<SectionHeaderProps> = ({ text }) => {
   return (
-    <div className="w-full">
+    <div>
       <h2 className="flex items-center text-2xl heading">{text}</h2>
     </div>
   );
