@@ -10,8 +10,8 @@ export const About: React.FC<AboutProps> = ({}) => {
     <section className="flex flex-col items-center py-28">
       <div>
         <SectionHeader text="About Me" />
-        <div className="flex mt-4">
-          <div className="max-w-md space-y-4">
+        <div className="flex mt-10">
+          <div className="max-w-xl space-y-4 text-darkliver antialiased text-xl font-lato">
             <p>
               Hi! My name is Nevil and ... My interest in web development was
               ignited through an advanced web development course at university.
@@ -33,13 +33,15 @@ export const About: React.FC<AboutProps> = ({}) => {
               dicta sunt explicabo.
             </p>
           </div>
-          <div className="ml-4 w-[225px] h-[300px] relative rounded-md overflow-hidden">
-            <Image
-              src={me}
-              alt="Image of myself"
-              layout="fill"
-              objectFit="contain"
-            />
+          <div className="ml-10 w-[225px] h-[300px] relative rounded-md overflow-hidden drop-shadow-lg">
+            <div className="grayscale w-full h-full transition-grayscale duration-300 hover:grayscale-0">
+              <Image
+                src={me}
+                alt="Image of myself"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
         </div>
       </div>
