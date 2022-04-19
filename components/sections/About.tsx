@@ -11,7 +11,7 @@ export const About: React.FC<AboutProps> = ({}) => {
       <div>
         <SectionHeader text="About Me" />
         <div className="flex mt-10">
-          <div className="max-w-xl space-y-4 text-darkliver antialiased text-xl font-lato">
+          <div className="max-w-xl space-y-4 primaryText antialiased text-xl font-lato">
             <p>
               Hi! My name is Nevil and ... My interest in web development was
               ignited through an advanced web development course at university.

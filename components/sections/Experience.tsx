@@ -3,6 +3,7 @@ import { Education } from "../Education";
 import { SectionHeader } from "../SectionHeader";
 import { Tab } from "../Tab";
 import { TabContainer } from "../TabContainer";
+import { TechnicalSkills } from "../TechnicalSkills";
 
 interface ExperienceProps {}
 
@@ -14,18 +15,24 @@ export const Experience: React.FC<ExperienceProps> = ({}) => {
     <section className="flex flex-col items-center py-28">
       <div>
         <SectionHeader text="Experience" />
-        <div className="mt-10" />
-        <TabContainer tabs={tabs} active={active} setActive={setActive} />
-        {active === tabs[0] ? (
-          <Education />
-        ) : (
+        <div className="flex mt-10">
           <div>
-            <span className="block">
-              Currently seeking a full-time opportunity.
-            </span>
-            <a>View some of my work.</a>
+            <TabContainer tabs={tabs} active={active} setActive={setActive} />
+            {active === tabs[0] ? (
+              <Education />
+            ) : (
+              <div>
+                <span className="block">
+                  Currently seeking a full-time opportunity.
+                </span>
+                <a>View some of my work.</a>
+              </div>
+            )}
           </div>
-        )}
+          <div className="self-center ml-20">
+            <TechnicalSkills />
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -8,7 +8,11 @@ export const NavBar: React.FC<{}> = ({}) => {
         <NavElement>About</NavElement>
         <NavElement>Experience</NavElement>
         <NavElement>Projects</NavElement>
-        <button className="btn btn-darkliver">Resume</button>
+        <div className="btn btn-darkliver inline-block">
+          <a target="_blank" href="/resume.pdf">
+            Resume
+          </a>
+        </div>
       </div>
     </div>
   );
