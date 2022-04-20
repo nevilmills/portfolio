@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { SectionHeader } from "../SectionHeader";
 import me from "../../images/me.jpg";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 interface AboutProps {}
 
 export const About: React.FC<AboutProps> = ({}) => {
+  useEffect(() => {
+    AOS.init({ duration: 750 });
+  }, []);
+
   return (
     <section className="flex flex-col items-center py-28">
-      <div>
+      <div data-aos="fade-up">
         <SectionHeader text="About Me" />
         <div className="flex mt-10">
           <div className="max-w-xl space-y-4 primaryText antialiased text-xl font-lato">
