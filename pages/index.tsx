@@ -7,6 +7,7 @@ import { Introduction } from "../components/sections/Introduction";
 import { NavBar } from "../components/NavBar";
 import { Wrapper } from "../components/Wrapper";
 import styles from "../styles/Home.module.css";
+import { Projects } from "../components/sections/Projects";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Introduction />
       <About />
       <Experience />
+      <Projects />
     </div>
   );
 };
