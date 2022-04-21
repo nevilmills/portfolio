@@ -76,7 +76,7 @@ a {
   box-sizing: border-box;
 }
 
-li::marker {
+.arrow-list li::marker {
   content: "▶";
 }
 
