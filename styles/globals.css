@@ -7,10 +7,10 @@
     @apply font-bold py-2 px-4 rounded;
   }
   .btn-darkliver {
-    @apply text-darkliver border-solid border-2 border-darkliver hover:bg-darkliver hover:text-white;
+    @apply text-offwhite border-solid border-2 border-offwhite hover:bg-offwhite hover:text-lightBlack;
   }
   .nav {
-    @apply h-14 w-full flex justify-end items-center sticky top-0 z-50 opacity-75 bg-timberwolf;
+    @apply h-14 w-full flex justify-end items-center sticky top-0 z-50 opacity-75 bg-lightBlack;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -18,11 +18,11 @@
   }
 
   .tab {
-    @apply h-14 w-36 border-darkliver text-darkliver border-[1px] font-lato antialiased text-xl;
+    @apply h-14 w-36 border-offwhite text-offwhite border-[1px] font-lato antialiased text-xl;
   }
 
   .is-active {
-    @apply bg-darkliver text-timberwolf;
+    @apply bg-offwhite text-lightBlack;
   }
 
   .underline {
@@ -38,21 +38,29 @@
   }
 
   .heading::after {
-    @apply ml-5 h-px w-64 bg-darkliver;
+    @apply ml-5 h-px w-64 bg-offwhite;
     content: "";
     display: inline-block;
   }
 
   .heading {
-    @apply text-darkGreen;
+    @apply text-offwhite;
+  }
+
+  .subheading {
+    @apply text-offwhite;
   }
 
   .primaryText {
-    @apply font-lato text-darkliver antialiased;
+    @apply font-lato text-lightGrey antialiased;
   }
 
   .highlighted {
     @apply text-lemonYellow;
+  }
+
+  .project-entry {
+    @apply bg-lighterBlack;
   }
 
   /* ... */
@@ -60,7 +68,7 @@
 
 html,
 body {
-  background-color: #eadeda;
+  background-color: #141414;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
