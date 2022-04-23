@@ -8,7 +8,7 @@ import { TechnicalSkills } from "../TechnicalSkills";
 interface ExperienceProps {}
 
 export const Experience: React.FC<ExperienceProps> = ({}) => {
-  const tabs = ["UFV", "Coming Soon..."];
+  const tabs = ["UFV", "Coming Soon"];
   const [active, setActive] = useState<string>(tabs[0]);
 
   return (
@@ -16,13 +16,13 @@ export const Experience: React.FC<ExperienceProps> = ({}) => {
       <div>
         <SectionHeader text="Experience" />
         <div className="flex mt-10">
-          <div>
+          <div className="min-w-[380px] min-h-[420px]">
             <TabContainer tabs={tabs} active={active} setActive={setActive} />
             {active === tabs[0] ? (
               <Education />
             ) : (
-              <div>
-                <span className="block">
+              <div className="mt-8 primaryText text-xl">
+                <span className="block mb-4">
                   Currently seeking a full-time opportunity.
                 </span>
                 <a>View some of my work.</a>
