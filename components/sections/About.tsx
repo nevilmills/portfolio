@@ -19,24 +19,23 @@ export const About: React.FC<AboutProps> = ({}) => {
         <div className="flex mt-10">
           <div className="max-w-xl space-y-4 primaryText antialiased text-xl font-lato">
             <p>
-              Hi! My name is Nevil and ... My interest in web development was
-              ignited through an advanced web development course at university.
-              Since then, I've been focusing on learning more about full stack
-              development by building various web apps.
+              Hello! My name is Nevil and I enjoy building web applications. I'm
+              a recent graduate from the University of the Fraser Valley
+              currently looking for a team of developers to join.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              My Interest in web development was sparked while taking an
+              advanced web development course in University, where I built a
+              browser game with vanilla JavaScript. Following this semester, I
+              had an urge to try building a web application using a frontend
+              library, and so I learned React. Since then, I've continued
+              learning more about full stack development by building various web
+              apps.
             </p>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              Outside of development, I'm passionate about health and fitness,
+              and love music and movies. Some of my other hobbies are playing
+              squash, snowboarding, and video games.
             </p>
           </div>
           <div className="ml-10 w-[225px] h-[300px] relative rounded-md overflow-hidden drop-shadow-lg">

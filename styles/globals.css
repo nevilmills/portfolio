@@ -18,11 +18,15 @@
   }
 
   .tab {
-    @apply h-14 w-36 border-offwhite text-offwhite border-[1px] font-lato antialiased text-xl;
+    @apply h-14 w-36 border-borderBlack text-lightGrey border-[1px] font-lato antialiased text-xl;
   }
 
   .is-active {
-    @apply bg-offwhite text-lightBlack;
+    @apply bg-lightestBlack text-offwhite;
+  }
+
+  .tab:not(.is-active) {
+    @apply hover:bg-lightestBlack;
   }
 
   .underline {
@@ -60,7 +64,7 @@
   }
 
   .project-entry {
-    @apply bg-lighterBlack;
+    @apply bg-lighterBlack border-borderBlack border-[1px] hover:bg-lightestBlack shadow-sm rounded-3xl;
   }
 
   /* ... */

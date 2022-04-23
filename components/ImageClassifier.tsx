@@ -6,7 +6,7 @@ interface ImageClassifierProps {}
 export const ImageClassifier: React.FC<ImageClassifierProps> = ({}) => {
   return (
     <a href="/" target="_blank" className="block">
-      <div className="flex w-[1000px] h-[250px]  shadow-xl rounded-3xl project-entry">
+      <div className="flex w-[1000px] h-[250px] project-entry">
         <div className="w-[200px] h-full p-4">
           <div className="w-full h-full relative rounded-2xl overflow-hidden">
             <Image
