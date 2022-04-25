@@ -13,7 +13,7 @@ export const About: React.FC<AboutProps> = ({}) => {
   }, []);
 
   return (
-    <section className="flex flex-col items-center py-28">
+    <section id="about" className="flex flex-col items-center py-28">
       <div data-aos="fade-up">
         <SectionHeader text="About Me" />
         <div className="flex mt-10">

@@ -12,7 +12,7 @@ export const Experience: React.FC<ExperienceProps> = ({}) => {
   const [active, setActive] = useState<string>(tabs[0]);
 
   return (
-    <section className="flex flex-col items-center py-28">
+    <section id="experience" className="flex flex-col items-center py-28">
       <div>
         <SectionHeader text="Experience" />
         <div className="flex mt-10">

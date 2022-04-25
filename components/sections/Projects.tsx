@@ -7,7 +7,7 @@ interface ProjectsProps {}
 
 export const Projects: React.FC<ProjectsProps> = ({}) => {
   return (
-    <section className="flex flex-col items-center py-28">
+    <section id="projects" className="flex flex-col items-center py-28">
       <SectionHeader text="Projects" />
       <div className="mt-8 space-y-2">
         <ImageClassifier />

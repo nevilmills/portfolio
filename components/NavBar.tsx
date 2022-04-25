@@ -15,9 +15,9 @@ export const NavBar: React.FC<{}> = ({}) => {
   return (
     <div id="navbar" className="nav">
       <div className="mr-8 space-x-6">
-        <NavElement>About</NavElement>
-        <NavElement>Experience</NavElement>
-        <NavElement>Projects</NavElement>
+        <NavElement href="/#about">About</NavElement>
+        <NavElement href="/#experience">Experience</NavElement>
+        <NavElement href="/#projects">Projects</NavElement>
         <div className="btn btn-darkliver inline-block">
           <a target="_blank" href="/resume.pdf">
             Resume
