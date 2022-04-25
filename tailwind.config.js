@@ -34,6 +34,8 @@ module.exports = {
         lightestBlack: "#1e1e1e",
         lightGrey: "#b1b1b1",
         borderBlack: "#242424",
+        lighterGrey: "#6c6c6c",
+        lightestGrey: "#d9d9d9",
       },
     },
   },

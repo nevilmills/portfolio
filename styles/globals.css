@@ -29,6 +29,10 @@
     @apply hover:bg-lightestBlack;
   }
 
+  .highlightedText {
+    @apply border-b-2 border-lighterGrey text-lightestGrey;
+  }
+
   .underline {
     width: 0%;
     height: 1px;

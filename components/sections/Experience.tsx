@@ -15,7 +15,7 @@ export const Experience: React.FC<ExperienceProps> = ({}) => {
     <section id="experience" className="flex flex-col items-center py-28">
       <div>
         <SectionHeader text="Experience" />
-        <div className="flex mt-10">
+        <div className="mt-10">
           <div className="min-w-[380px] min-h-[420px]">
             <TabContainer tabs={tabs} active={active} setActive={setActive} />
             {active === tabs[0] ? (
@@ -25,13 +25,15 @@ export const Experience: React.FC<ExperienceProps> = ({}) => {
                 <span className="block mb-4">
                   Currently seeking a full-time opportunity.
                 </span>
-                <a>View some of my work.</a>
+                <a className="highlightedText" href="/#projects">
+                  View some of my work.
+                </a>
               </div>
             )}
           </div>
-          <div className="self-center ml-20">
-            <TechnicalSkills />
-          </div>
+        </div>
+        <div className="mt-20">
+          <TechnicalSkills />
         </div>
       </div>
     </section>
