@@ -71,6 +71,14 @@
     @apply bg-lighterBlack border-borderBlack border-[1px] hover:bg-lightestBlack shadow-sm rounded-3xl;
   }
 
+  .skills-list {
+    @apply text-lg font-lato primaryText;
+  }
+
+  .skills-list-heading {
+    @apply text-offwhite;
+  }
+
   /* ... */
 }
 
