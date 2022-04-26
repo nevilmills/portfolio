@@ -21,7 +21,7 @@ export const DodgeTheBullets: React.FC<DodgeTheBulletsProps> = ({}) => {
             />
           </div>
         </div>
-        <div className="h-full flex flex-col items-center justify-center grow font-lato">
+        <div className="h-full flex flex-col items-center justify-center grow">
           <h3 className="text-2xl subheading">Dodge The Bullets!</h3>
           <div className="max-w-2xl mt-2">
             <p className="text-lg primaryText">

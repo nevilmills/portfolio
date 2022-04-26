@@ -18,7 +18,7 @@
   }
 
   .tab {
-    @apply h-14 w-36 border-borderBlack text-lightGrey border-[1px] font-lato antialiased text-xl;
+    @apply h-14 w-36 border-borderBlack text-lightGrey border-[1px] antialiased text-xl;
   }
 
   .is-active {
@@ -60,7 +60,7 @@
   }
 
   .primaryText {
-    @apply font-lato text-lightGrey antialiased;
+    @apply text-lightGrey antialiased;
   }
 
   .highlighted {
@@ -72,7 +72,7 @@
   }
 
   .skills-list {
-    @apply text-lg font-lato primaryText;
+    @apply text-lg primaryText;
   }
 
   .skills-list-heading {

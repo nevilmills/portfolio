@@ -17,7 +17,7 @@ export const ImageClassifier: React.FC<ImageClassifierProps> = ({}) => {
             />
           </div>
         </div>
-        <div className="h-full flex flex-col items-center justify-center grow font-lato">
+        <div className="h-full flex flex-col items-center justify-center grow">
           <h3 className="text-2xl subheading">Image Classifier</h3>
           <div className="max-w-2xl mt-2">
             <p className="text-lg primaryText">

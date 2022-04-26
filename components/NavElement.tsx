@@ -5,7 +5,7 @@ export const NavElement: React.FC<{ children: string; href: string }> = ({
   href,
 }) => {
   return (
-    <div className="inline-block text-offwhite font-lato">
+    <div className="inline-block text-offwhite">
       <a className="p-2 underlineTarget" href={href}>
         {children}
       </a>

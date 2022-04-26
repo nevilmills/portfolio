@@ -20,9 +20,7 @@ export const TechnicalSkills: React.FC<TechnicalSkillsProps> = ({}) => {
 
   return (
     <div>
-      <h3 className="subheading text-2xl mb-2 font-lato text-center">
-        Technical Skills
-      </h3>
+      <h3 className="subheading text-2xl mb-2 text-center">Technical Skills</h3>
       <div className="skills-list space-y-8 mt-10">
         <div className="skills-list-item">
           <h4 className="skills-list-heading">Programming Languages</h4>
