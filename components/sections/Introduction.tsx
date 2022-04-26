@@ -10,18 +10,18 @@ export const Introduction: React.FC<{}> = ({}) => {
   return (
     <section className="flex flex-col justify-center min-h-screen items-center w-full">
       <div className="max-w-lg space-y-2 primaryText">
-        <h1 data-aos="fade-down" className="text-2xl">
+        <h1 data-aos="fade-down" className="text-xl ">
           Hi, my name is
         </h1>
         <h2
           data-aos="fade-down"
           data-aos-delay="50"
-          className="text-7xl  font-bold"
+          className="text-7xl font-bold text-offwhite"
         >
           Nevil Mills.
         </h2>
-        <p data-aos="fade-down" data-aos-delay="100" className="text-2xl">
-          I'm a software engineer from Chilliwack, B.C. Currently, I am focused
+        <p data-aos="fade-down" data-aos-delay="100" className="text-xl">
+          I'm a software engineer from Vancouver, B.C. Currently, I am focused
           on developing full stack web applications as I search for a team of
           developers to join.
         </p>

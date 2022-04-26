@@ -20,11 +20,11 @@ export const TechnicalSkills: React.FC<TechnicalSkillsProps> = ({}) => {
 
   return (
     <div>
-      <h3 className="subheading text-2xl mb-2 text-center">Technical Skills</h3>
-      <div className="skills-list space-y-8 mt-10">
+      {/* <h3 className="subheading text-2xl mb-2 text-center">Technical Skills</h3> */}
+      <div className="skills-list space-y-10 mt-10">
         <div className="skills-list-item">
           <h4 className="skills-list-heading">Programming Languages</h4>
-          <div className="flex justify-between w-full">
+          <div className="flex justify-between w-full ml-4">
             <ul className="list-disc">
               <li>JavaScript</li>
               <li>TypeScript</li>
@@ -41,7 +41,7 @@ export const TechnicalSkills: React.FC<TechnicalSkillsProps> = ({}) => {
         </div>
         <div className="skills-list-item">
           <h4 className="skills-list-heading">Libraries/Frameworks</h4>
-          <div className="flex justify-between w-full">
+          <div className="flex justify-between w-full ml-4">
             <ul className="list-disc">
               <li>React.js</li>
               <li>Next.js</li>
@@ -58,7 +58,7 @@ export const TechnicalSkills: React.FC<TechnicalSkillsProps> = ({}) => {
         </div>
         <div className="skills-list-item">
           <h4 className="skills-list-heading">Databases & Tools</h4>
-          <div className="flex justify-between w-full">
+          <div className="flex justify-between w-full ml-4">
             <ul className="list-disc">
               <li>PostgreSQL</li>
               <li>MySQL</li>

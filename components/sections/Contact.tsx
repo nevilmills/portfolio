@@ -13,15 +13,15 @@ export const Contact: React.FC<ContactProps> = ({}) => {
   return (
     <section id="contact">
       <div
-        className="flex flex-col items-center py-28 space-y-10 primaryText text-xl"
+        className="flex flex-col items-center py-28 primaryText text-lg"
         data-aos="fade-up"
       >
-        <h3 className="subheading text-4xl mb-2 text-center">Get In Touch</h3>
-        <p className="max-w-md text-center">
-          Feel free to send me an email about new opportunities, feedback on my
-          portfolio, or even just to say hi!
+        <h3 className="subheading text-4xl text-center mb-5">Get In Touch</h3>
+        <p className="max-w-md text-center mb-8">
+          If you are looking to connect, my inbox is always open. Feel free to
+          email me about new opportunities, feedback on my portfolio, or just to
+          say hi!
         </p>
-        <p>I'm always open to connecting with like-minded people.</p>
         <button className="btn btn-darkliver">Reach Out</button>
       </div>
     </section>

@@ -14,15 +14,15 @@ export const Experience: React.FC<ExperienceProps> = ({}) => {
   return (
     <section id="experience" className="flex flex-col items-center py-28">
       <div>
-        <SectionHeader text="Experience" />
+        <SectionHeader text="Skills & Experience" />
         <div className="mt-10">
           <div className="min-w-[380px] min-h-[420px]">
             <TabContainer tabs={tabs} active={active} setActive={setActive} />
             {active === tabs[0] ? (
               <Education />
             ) : (
-              <div className="mt-8 primaryText text-xl">
-                <span className="block mb-4">
+              <div className="mt-8 primaryText text-xl text-center">
+                <span className="block pt-4 mb-4">
                   Currently seeking a full-time opportunity.
                 </span>
                 <a className="highlightedText" href="/#projects">

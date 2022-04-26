@@ -60,7 +60,7 @@
   }
 
   .primaryText {
-    @apply text-lightGrey antialiased;
+    @apply text-lightGrey text-lg antialiased;
   }
 
   .highlighted {
@@ -76,7 +76,7 @@
   }
 
   .skills-list-heading {
-    @apply text-offwhite;
+    @apply text-offwhite text-2xl mb-8;
   }
 
   /* ... */

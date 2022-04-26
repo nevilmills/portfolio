@@ -17,7 +17,7 @@ export const About: React.FC<AboutProps> = ({}) => {
       <div data-aos="fade-up">
         <SectionHeader text="About Me" />
         <div className="flex mt-10">
-          <div className="max-w-xl space-y-4 primaryText antialiased text-xl">
+          <div className="max-w-xl space-y-4 primaryText antialiased text-lg">
             <p>
               Hello! My name is Nevil and I enjoy building web applications. I'm
               a recent graduate from the University of the Fraser Valley
