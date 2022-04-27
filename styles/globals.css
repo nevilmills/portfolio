@@ -10,7 +10,7 @@
     @apply text-offwhite border-solid border-2 border-offwhite hover:bg-offwhite hover:text-lightBlack;
   }
   .nav {
-    @apply h-14 w-full flex justify-end items-center sticky top-0 z-50 opacity-75 bg-lightBlack;
+    @apply h-14 w-full flex justify-between items-center sticky top-0 z-50 opacity-75 bg-lightBlack;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
