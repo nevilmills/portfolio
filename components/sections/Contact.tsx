@@ -18,9 +18,8 @@ export const Contact: React.FC<ContactProps> = ({}) => {
       >
         <h3 className="subheading text-4xl text-center mb-5">Get In Touch</h3>
         <p className="max-w-md text-center mb-8">
-          If you are looking to connect, my inbox is always open. Feel free to
-          email me about new opportunities, feedback on my portfolio, or just to
-          say hi!
+          My inbox is open to anyone looking to connect. Feel free to email me
+          about new opportunities, feedback on my portfolio, or just to say hi!
         </p>
         <button className="btn btn-darkliver">Reach Out</button>
       </div>

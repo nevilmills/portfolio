@@ -31,7 +31,7 @@ export const DodgeTheBullets: React.FC<DodgeTheBulletsProps> = ({}) => {
             </p>
           </div>
           <div className="mt-4">
-            <ul className="flex space-x-5 text-gray-600">
+            <ul className="flex space-x-5 text-lighterGrey">
               <li>JavaScript</li>
               <li>Node.js</li>
               <li>MySQL</li>

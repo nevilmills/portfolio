@@ -30,7 +30,7 @@ export const ImageClassifier: React.FC<ImageClassifierProps> = ({}) => {
             </p>
           </div>
           <div className="mt-4">
-            <ul className="flex space-x-5 text-gray-600">
+            <ul className="flex space-x-5 text-lighterGrey">
               <li>Python</li>
               <li>TensorFlow</li>
               <li>Keras</li>
