@@ -9,6 +9,7 @@ import { Wrapper } from "../components/Wrapper";
 import styles from "../styles/Home.module.css";
 import { Projects } from "../components/sections/Projects";
 import { Contact } from "../components/sections/Contact";
+import { Footer } from "../components/sections/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <Experience />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };

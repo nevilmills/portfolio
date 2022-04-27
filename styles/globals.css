@@ -64,7 +64,9 @@
   }
 
   .highlighted {
-    @apply text-lemonYellow;
+    @apply text-lightestGrey decoration-lightestGrey underline-offset-2;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
   }
 
   .project-entry {
