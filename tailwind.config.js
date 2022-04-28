@@ -36,6 +36,7 @@ module.exports = {
         borderBlack: "#242424",
         lighterGrey: "#6c6c6c",
         lightestGrey: "#d9d9d9",
+        greenHighlight: "#32a852",
       },
     },
   },

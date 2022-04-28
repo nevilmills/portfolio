@@ -5,11 +5,11 @@ export const NavElement: React.FC<{ children: string; href: string }> = ({
   href,
 }) => {
   return (
-    <div className="inline-block text-offwhite">
+    <div className="inline-block nav-item">
       <a className="p-2 underlineTarget" href={href}>
         {children}
       </a>
-      <div className="underline bg-offwhite" />
+      <div className="underline bg-greenHighlight" />
     </div>
   );
 };

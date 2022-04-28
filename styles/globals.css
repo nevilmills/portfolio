@@ -35,7 +35,7 @@
 
   .underline {
     width: 0%;
-    height: 1px;
+    height: 2px;
     margin-left: 50%;
     transition: width 0.5s ease-out, margin-left 0.5s ease-out;
   }
@@ -67,6 +67,26 @@
     @apply text-lightestGrey decoration-lightestGrey underline-offset-2;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+  }
+
+  .highlighted:hover {
+    @apply text-greenHighlight;
+  }
+
+  .icon {
+    @apply text-offwhite;
+  }
+
+  .icon:hover {
+    @apply text-greenHighlight;
+  }
+
+  .nav-item {
+    @apply text-offwhite;
+  }
+
+  .nav-item:hover {
+    @apply text-greenHighlight;
   }
 
   .project-entry {
