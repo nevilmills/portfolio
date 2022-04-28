@@ -11,11 +11,11 @@ export const DodgeTheBullets: React.FC<DodgeTheBulletsProps> = ({}) => {
       className="block"
     >
       <div className="flex w-[1000px] h-[250px] project-entry">
-        <div className="w-[200px] h-full  p-4">
-          <div className="w-full h-full relative rounded-2xl overflow-hidden">
+        <div className="w-[200px] h-full p-4 flex flex-col justify-center">
+          <div className="w-[180px] h-[180px] relative rounded-2xl overflow-hidden">
             <Image
-              src="/dogPic.png"
-              alt="dog"
+              src="/browserGame.png"
+              alt="Gameplay of Dodge the Bullets"
               layout="fill"
               objectFit="contain"
             />

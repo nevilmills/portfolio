@@ -32,7 +32,7 @@ export const Experience: React.FC<ExperienceProps> = ({}) => {
             )}
           </div>
         </div>
-        <div className="mt-20">
+        <div className="pt-12">
           <TechnicalSkills />
         </div>
       </div>
