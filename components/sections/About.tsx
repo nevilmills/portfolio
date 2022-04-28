@@ -19,23 +19,26 @@ export const About: React.FC<AboutProps> = ({}) => {
         <div className="flex mt-10">
           <div className="max-w-xl space-y-4 primaryText antialiased text-lg">
             <p>
-              Hello! My name is Nevil and I enjoy building web applications. I'm
-              a recent graduate from the University of the Fraser Valley
-              currently looking for a team of developers to join.
+              Hi there! My name is Nevil. I'm a recent graduate from the
+              University of the Fraser Valley with a deep interest in fullstack
+              development.
             </p>
             <p>
               My Interest in web development was sparked while taking an
               advanced web development course in University, where I built a
-              browser game with vanilla JavaScript. Following this semester, I
-              had an urge to try building a web application using a frontend
-              library, and so I learned React. Since then, I've continued
-              learning more about full stack development by building various web
-              apps.
+              browser game with vanilla JavaScript. Following this, I was eager
+              expand on what I learned during the course by picking up a
+              frontend library. Since then, I've continued my learning by
+              building{" "}
+              <a className="highlighted" href="/#projects">
+                various web apps.
+              </a>
             </p>
+            {/* {"I'm a highly organized problem solver with a sharp attention to
+              detail."} */}
             <p>
-              Outside of development, I'm passionate about health and fitness,
-              and love music and movies. Some of my other hobbies are playing
-              squash, snowboarding, and video games.
+              Outside of development, my passions include fitness, snowboarding,
+              video games, and watching tv shows & movies.
             </p>
           </div>
           <div className="ml-10 w-[225px] h-[300px] relative rounded-md overflow-hidden drop-shadow-lg">
