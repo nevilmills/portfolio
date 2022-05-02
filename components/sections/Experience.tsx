@@ -25,7 +25,7 @@ export const Experience: React.FC<ExperienceProps> = ({}) => {
                 <span className="block pt-4 mb-4">
                   Currently seeking a full-time opportunity.
                 </span>
-                <a className="highlightedText" href="/#projects">
+                <a className="highlighted text-lightGrey" href="/#projects">
                   View some of my work.
                 </a>
               </div>
