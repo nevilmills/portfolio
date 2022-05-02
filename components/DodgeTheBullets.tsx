@@ -1,14 +1,21 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 interface DodgeTheBulletsProps {}
 
 export const DodgeTheBullets: React.FC<DodgeTheBulletsProps> = ({}) => {
+  useEffect(() => {
+    AOS.init({ duration: 300, once: true });
+  }, []);
+
   return (
     <a
       href="https://github.com/nevilmills/Comp351FinalProject"
       target="_blank"
       className="block"
+      data-aos="fade-left"
     >
       <div className="flex w-[1000px] h-[250px] project-entry">
         <div className="w-[200px] h-full p-4 flex flex-col justify-center">

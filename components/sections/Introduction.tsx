@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 export const Introduction: React.FC<{}> = ({}) => {
   useEffect(() => {
-    AOS.init({ duration: 750 });
+    AOS.init({ duration: 750, once: true });
   }, []);
 
   return (

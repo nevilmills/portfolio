@@ -1,11 +1,17 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 interface ImageClassifierProps {}
 
 export const ImageClassifier: React.FC<ImageClassifierProps> = ({}) => {
+  useEffect(() => {
+    AOS.init({ duration: 300, once: true });
+  }, []);
+
   return (
-    <a href="/" target="_blank" className="block">
+    <a href="/" target="_blank" className="block" data-aos="fade-left">
       <div className="flex w-[1000px] h-[250px] project-entry">
         <div className="w-[200px] h-full p-4 flex flex-col justify-center">
           <div className="w-[180px] h-[180px] relative rounded-2xl overflow-hidden">

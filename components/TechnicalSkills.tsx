@@ -1,26 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 interface TechnicalSkillsProps {}
 
 export const TechnicalSkills: React.FC<TechnicalSkillsProps> = ({}) => {
-  // return (
-  //   <div className="flex flex-col items-center max-w-[500px] text-lg font-lato primaryText space-y-1">
-  //     <h3 className="subheading text-2xl mb-2">Technical Skills</h3>
-  //     <div>
-  //       <p>
-  //         Programming Languages: C++, Python, JavaScript, TypeScript, SQL
-  //         (Postgres, MySQL), GraphQL, HTML/CSS
-  //       </p>
-  //       <p>Frameworks: React, Next.js, Node.js, Express</p>
-  //       <p>Developer Tools: Git, Docker, VS Code, Visual Studio, PyCharm</p>
-  //       <p>Libraries: TensorFlow, Keras, Chakra-UI</p>
-  //     </div>
-  //   </div>
-  // );
+  useEffect(() => {
+    AOS.init({ duration: 300, once: true });
+  }, []);
 
   return (
-    <div>
-      {/* <h3 className="subheading text-2xl mb-2 text-center">Technical Skills</h3> */}
+    <div data-aos="fade-up">
       <div className="skills-list space-y-10 mt-10">
         <div className="skills-list-item">
           <h4 className="skills-list-heading">Programming Languages</h4>

@@ -1,18 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Education } from "../Education";
 import { SectionHeader } from "../SectionHeader";
 import { Tab } from "../Tab";
 import { TabContainer } from "../TabContainer";
 import { TechnicalSkills } from "../TechnicalSkills";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 interface ExperienceProps {}
 
 export const Experience: React.FC<ExperienceProps> = ({}) => {
+  useEffect(() => {
+    AOS.init({ duration: 300, once: true });
+  }, []);
+
   const tabs = ["UFV", "Coming Soon"];
   const [active, setActive] = useState<string>(tabs[0]);
 
   return (
-    <section id="experience" className="flex flex-col items-center py-28">
+    <section
+      id="experience"
+      className="flex flex-col items-center py-28"
+      data-aos="fade-up"
+    >
       <div>
         <SectionHeader text="Skills & Experience" />
         <div className="mt-10">
