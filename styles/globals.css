@@ -7,18 +7,20 @@
     @apply font-bold py-2 px-4 rounded;
   }
   .btn-darkliver {
-    @apply text-offwhite border-solid border-2 border-offwhite hover:bg-offwhite hover:text-lightBlack;
+    @apply text-offwhite border-solid border-2 border-offwhite hover:text-greenHighlight hover:border-greenHighlight;
   }
   .nav {
     @apply h-14 w-full flex justify-between items-center sticky top-0 z-50 opacity-75 bg-lightBlack;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    @apply backdrop-blur;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     transition: all 300ms ease;
   }
 
   .tab {
     @apply h-14 w-36 border-borderBlack text-lightGrey border-[1px] antialiased text-xl;
+  }
+
+  .tab:hover {
   }
 
   .is-active {
@@ -41,6 +43,7 @@
   }
 
   .underlineTarget:hover + .underline {
+    @apply bg-greenHighlight;
     width: 100%;
     margin-left: 0%;
   }
