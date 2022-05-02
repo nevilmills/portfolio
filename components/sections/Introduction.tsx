@@ -26,13 +26,14 @@ export const Introduction: React.FC<{}> = ({}) => {
           developers to join.
         </p>
         <div>
-          <button
+          <a
             data-aos="fade-left"
             data-aos-delay="100"
             className="btn btn-darkliver mt-6 inline-block"
+            href="/#contact"
           >
             Contact me
-          </button>
+          </a>
         </div>
       </div>
     </section>
