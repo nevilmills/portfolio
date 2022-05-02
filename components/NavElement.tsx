@@ -9,7 +9,7 @@ export const NavElement: React.FC<{ children: string; href: string }> = ({
       <a className="p-2 underlineTarget" href={href}>
         {children}
       </a>
-      <div className="underline bg-greenHighlight" />
+      <div className="underline bg-offwhite" />
     </div>
   );
 };
